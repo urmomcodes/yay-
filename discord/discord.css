@@ -1,0 +1,127 @@
+.entire-page{
+    background-color: rgb(54, 52, 194);
+    margin: -8px;
+    position: relative;
+}
+
+.box {
+    padding-bottom: 620px;
+    background-color:  rgb(54, 52, 194);
+    margin-left: 169.600px;
+    margin-right: 169.600px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 20px;
+    position: relative;
+}
+
+.Download,.Nitro, .Discover,.Safety,.Support,.Blog,.Careers {
+  font-family: Ggsans,sans-serif;
+    margin-left: 12px;
+    margin-right: 10px;
+    font-size: 14px;    
+    padding: 10px;
+   font-weight: bold;
+   margin-right: 7px;
+}
+
+.Download:hover,.Nitro:hover, .Discover:hover,.Safety:hover,.Support:hover,.Blog:hover,.Careers:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    cursor: pointer;
+}
+
+.Login {
+    background-color: white;
+    color: black;
+    font-family: Ggsans,sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+   border-radius: 25px;
+   border: 0;
+   padding-left: 15px ;
+   padding-right: 15px;
+   padding-top: 8px;
+   padding-bottom: 8px;
+   display: flex;
+   align-items: center;
+   cursor: pointer;
+}
+
+.Login:hover {
+    color: rgb(54, 52, 194);
+}
+
+.imagine {
+   position: absolute;
+   background-color: rgb(54, 52, 194);
+   color: white;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   top: 200px;
+   font-size: 56px;
+   font-weight: 900;
+}
+
+.one {
+    position: absolute;
+    background-color: rgb(54, 52, 194);
+    top: 300px;
+    font-size: 19px;
+    font-family: Ggsans,sans-serif;
+    height: 97.500px;
+    width : 780px;
+    margin-left: 100px;
+    line-height: -2px;
+}
+
+.down {
+    position: absolute;
+    top: 400px;
+    margin-left: -300px;
+}
+
+.downloads
+{
+    color: black;
+    background-color: white;
+    border-color: white;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 32px;
+    padding-right:32px;
+    font-size: 20px;
+    border-radius: 26px ;
+    position: relative;
+}
+
+.downloads:hover {
+    color:  rgb(54, 52, 194);
+    cursor: pointer;
+}
+
+.open {
+    position:absolute;
+   top: 400px;
+   margin-left: 375px;
+
+}
+
+.opendisc {
+    color: white;
+    background-color: rgb(49, 49, 49);
+    border-color: rgb(49, 49, 49);
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 32px;
+    padding-right:32px;
+    font-size: 20px;
+    border-radius: 26px ;
+    transition: opacity 1s;
+}
+
+.opendisc:hover  {
+    cursor: pointer;
+    background-color:rgb(35, 39, 42) ;
+}
